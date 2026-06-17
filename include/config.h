@@ -5,7 +5,7 @@
 namespace OpenAirconIRConfig {
 
 constexpr const char *ProjectName = "OpenAirconIR";
-constexpr const char *FirmwareVersion = "0.1.0";
+constexpr const char *FirmwareVersion = "v0.2.0";
 
 constexpr uint8_t IrReceivePin = 15;
 constexpr uint8_t IrSendPin = 4;
@@ -18,5 +18,9 @@ constexpr uint8_t IrTimeoutMs = 50;
 constexpr uint16_t IrCarrierFrequencyKhz = 38;
 constexpr size_t MaxStoredRawTimings = 1024;
 constexpr uint32_t StatusBlinkIntervalMs = 1000;
+
+constexpr size_t MaxCaptureRecords = 20;
+constexpr size_t MaxCaptureLabelLength = 48;
+constexpr size_t MaxRawCaptureLength = 400;
 
 }  // namespace OpenAirconIRConfig

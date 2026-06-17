@@ -10,15 +10,17 @@
 
 ## v0.2: Capture JSON Output
 
-- Emit stricter JSON records.
-- Add capture session IDs and repeated sample counts.
-- Save logs in a format that can be pasted into analysis tools.
+- Implemented labeled capture mode controlled from serial commands.
+- Store bounded capture records in memory with protocol, bit count, value, raw timing length, raw timings, and future metadata fields.
+- Export captures as JSON Lines or a JSON document between clear begin/end markers.
+- Add workflow documentation and an AI analysis prompt template.
 
 ## v0.3: Unknown Remote Analysis Support
 
-- Document a repeatable workflow for recording unknown remotes.
-- Add comparison helpers for multiple captures.
-- Define handoff steps for coding agents to infer protocol structure.
+- Strengthen unknown remote analysis helpers.
+- Add a protocol definition YAML format for learned remotes.
+- Build comparison and code generation tools that can turn capture exports into OpenAirconIR protocol support.
+- Define handoff steps for coding agents to infer protocol structure from labeled captures.
 
 ## v0.4: Web UI
 
