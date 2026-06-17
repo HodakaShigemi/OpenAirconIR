@@ -21,6 +21,6 @@ constexpr uint32_t StatusBlinkIntervalMs = 1000;
 
 constexpr size_t MaxCaptureRecords = 20;
 constexpr size_t MaxCaptureLabelLength = 48;
-constexpr size_t MaxRawCaptureLength = 400;
+constexpr size_t MaxRawCaptureLength = 800;
 
 }  // namespace OpenAirconIRConfig

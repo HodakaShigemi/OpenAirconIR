@@ -91,8 +91,8 @@ Start capture mode:
 Capture list:
 
 ```text
-#1 label=cool_26_auto_on protocol=DAIKIN bits=280 rawLength=583 storedRawLength=400 raw_truncated=true
-#2 label=cool_27_auto_on protocol=DAIKIN bits=280 rawLength=583 storedRawLength=400 raw_truncated=true
+#1 label=cool_26_auto_on protocol=DAIKIN bits=280 rawLength=583
+#2 label=cool_27_auto_on protocol=DAIKIN bits=280 rawLength=583
 ```
 
 JSON Lines export:
